@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SHM.Domain/SHM.Domain.csproj" />
+    <Project Path="src/SHM.Services/SHM.Services.csproj" />
+    <Project Path="src/SHM.Web/SHM.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SHM.Tests/SHM.Tests.csproj" />
+  </Folder>
+</Solution>

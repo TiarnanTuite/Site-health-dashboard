@@ -1,0 +1,6 @@
+@SHM.Web_HostAddress = http://localhost:5062
+
+GET {{SHM.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
