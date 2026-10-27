@@ -8,4 +8,6 @@ public abstract class Device
     public int Port { get; set; }
     public int SiteId { get; set; }
     public DeviceStatus Status { get; set; } = DeviceStatus.Unknown;
+
+    public abstract AlertSeverity Severity { get; }
 }
