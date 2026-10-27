@@ -18,4 +18,10 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SHM.Domain\SHM.Domain.csproj" />
+    <ProjectReference Include="..\..\src\SHM.Services\SHM.Services.csproj" />
+    <ProjectReference Include="..\..\src\SHM.Web\SHM.Web.csproj" />
+  </ItemGroup>
+
 </Project>
